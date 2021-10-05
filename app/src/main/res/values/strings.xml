@@ -1,4 +1,4 @@
 <resources>
     <string name="app_name">QuizWorld</string>
-    <string name="score_text">\n\nYou got\n\n%s Points</string>
+    <string name="score_text">\nYou got\n%s Points</string>
 </resources>
