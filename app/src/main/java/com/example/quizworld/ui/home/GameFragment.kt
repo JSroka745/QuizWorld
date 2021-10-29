@@ -1,5 +1,6 @@
 package com.example.quizworld.ui.home
 
+import android.content.ContentProvider
 import android.content.Intent
 import android.graphics.drawable.AnimationDrawable
 import androidx.lifecycle.ViewModelProvider
@@ -103,6 +104,7 @@ class GameFragment() : Fragment() {
         else{
             viewModel.makeAPICall("https://opentdb.com/api.php?amount=10&category=$text_for_api")
         }
+
 
 
 
